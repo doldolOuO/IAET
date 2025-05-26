@@ -42,7 +42,7 @@ python eval_vipc.py
 
 - [KITTI](https://drive.google.com/drive/folders/1uPCrkp-UDTiY7k1Xu2Ix1A-lGUmh3yfG?usp=sharing)
 
-## 🥰 Acknowledgements
+## 😘 Acknowledgements
 Some of the code of this repo is borrowed from:
 
 - [XMFNet](https://github.com/diegovalsesia/XMFnet)
