@@ -30,12 +30,17 @@ python train_3depn.py
 ```
 
 ## Evaluation
+- [ShapeNet-ViPC]()
+
+- [KITTI]()
 
 To evaluate the models (select the specific category in ``config_vipc.py``):
 
 ```eval
 python eval_vipc.py 
 ```
+
+## Pre-trained models
 
 ## Acknowledgements
 Some of the code of this repo is borrowed from:
