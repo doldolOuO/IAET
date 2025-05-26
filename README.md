@@ -11,7 +11,7 @@ For each object, the dataset includes partial point clouds (``ShapeNetViPC-Patia
 ### KITTI
 The KITTI dataset used in this work is sourced from the [Cross-PCC](https://github.com/ltwu6/cross-pcc).
 
-## ⚙️ Getting Started
+## 🚀 Getting Started
 ### Requirements
 - Ubuntu: 18.04 and above
 - CUDA: 11.3 and above
@@ -42,7 +42,7 @@ python eval_vipc.py
 
 - [KITTI](https://drive.google.com/drive/folders/1uPCrkp-UDTiY7k1Xu2Ix1A-lGUmh3yfG?usp=sharing)
 
-## 😘 Acknowledgements
+## ❤️ Acknowledgements
 Some of the code of this repo is borrowed from:
 
 - [XMFNet](https://github.com/diegovalsesia/XMFnet)
