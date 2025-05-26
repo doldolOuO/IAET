@@ -1,5 +1,4 @@
-# IAET
-Official code for the paper "Multi-Modal Point Cloud Completion with Interleaved Attention Enhanced Transformer" (IJCAI 2025).
+# Multi-Modal Point Cloud Completion with Interleaved Attention Enhanced Transformer (IJCAI 2025)
 
 ## Dataset
 Use the code in  ``dataloader.py`` to load the dataset. 
