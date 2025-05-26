@@ -12,6 +12,12 @@ For each object, the dataset includes partial point clouds (``ShapeNetViPC-Patia
 ### KITTI
 The KITTI dataset used in this work is sourced from the [Cross-PCC](https://github.com/ltwu6/cross-pcc).
 
+## Requirements
+(Recommendation)
+- Ubuntu: 18.04 and above
+- CUDA: 11.3 and above
+- PyTorch: 1.10.1 and above
+
 ## Training
 The file ``config_vipc.py`` and ``config_3depn.py`` contain the configuration for all the training parameters.
 
@@ -39,6 +45,8 @@ Some of the code of this repo is borrowed from:
 - [XMFNet](https://github.com/diegovalsesia/XMFnet)
 
 - [Cross-PCC](https://github.com/ltwu6/cross-pcc)
+
+- [SnowflakeNet](https://github.com/AllenXiangX/SnowflakeNet)
 
 - [ChamferDistance](https://github.com/ThibaultGROUEIX/ChamferDistancePytorch)
 
