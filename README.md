@@ -17,7 +17,10 @@ The file config_vipc.py and config_3depn.py contain the configuration for all th
 To train the models in the paper, run this command:
 
 ```train
-python train_vipc.py 
+python train_vipc.py
+```
+
+```or
 python train_3depn.py 
 ```
 
@@ -53,4 +56,4 @@ Some of the code of this repo is borrowed from:
 
 ## License
 
-MIT License
+This project is open sourced under MIT license.
