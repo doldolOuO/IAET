@@ -38,9 +38,9 @@ python eval_vipc.py
 ```
 
 ### Pre-trained models
-- [ShapeNet-ViPC]()
+- [ShapeNet-ViPC](https://drive.google.com/drive/folders/1_0qIEw5huCMcc5ZsKSCMM98BQT8tJhC8?usp=sharing)
 
-- [KITTI]()
+- [KITTI](https://drive.google.com/drive/folders/1uPCrkp-UDTiY7k1Xu2Ix1A-lGUmh3yfG?usp=sharing)
 
 ## Acknowledgements
 Some of the code of this repo is borrowed from:
