@@ -11,12 +11,13 @@ For each object, the dataset includes partial point clouds (``ShapeNetViPC-Patia
 ### KITTI
 The KITTI dataset used in this work is sourced from the [Cross-PCC](https://github.com/ltwu6/cross-pcc).
 
-## Requirements
+## Getting Started
+### Requirements
 - Ubuntu: 18.04 and above
 - CUDA: 11.3 and above
 - PyTorch: 1.10.1 and above
 
-## Training
+### Training
 The file ``config_vipc.py`` and ``config_3depn.py`` contain the configuration for all the training parameters.
 
 To train the models in the paper, run this command:
@@ -29,14 +30,14 @@ python train_vipc.py
 python train_3depn.py 
 ```
 
-## Evaluation
+### Evaluation
 To evaluate the models (select the specific category in ``config_vipc.py``):
 
 ```eval
 python eval_vipc.py 
 ```
 
-## Pre-trained models
+### Pre-trained models
 - [ShapeNet-ViPC]()
 
 - [KITTI]()
