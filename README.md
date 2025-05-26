@@ -16,7 +16,7 @@ For each object, the dataset includes partial point clouds (``ShapeNetViPC-Patia
 The KITTI dataset used in this work is sourced from the [Cross-PCC](https://github.com/ltwu6/cross-pcc).
 
 ## Training
-The file config_vipc.py and config_3depn.py contain the configuration for all the training parameters.
+The file ``config_vipc.py`` and ``config_3depn.py`` contain the configuration for all the training parameters.
 
 To train the models in the paper, run this command:
 
