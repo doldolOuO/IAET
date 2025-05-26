@@ -27,7 +27,7 @@ python train_3depn.py
 
 ## Evaluation
 
-To evaluate the models (select the specific category in config.py):
+To evaluate the models (select the specific category in ``config_vipc.py``):
 
 ```eval
 python eval_vipc.py 
