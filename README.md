@@ -1,10 +1,10 @@
 # IAET
 Official code for the paper "Multi-Modal Point Cloud Completion with Interleaved Attention Enhanced Transformer" (IJCAI 2025).
 
-## 📄 TODO
+## TODO
 Once our paper is officially published, we will open all the source code. Thank you for your attention.
 
-## ⚙️ Dataset
+## Dataset
 First, please download the [ShapeNetViPC-Dataset](https://pan.baidu.com/s/1NJKPiOsfRsDfYDU_5MH28A) (143GB, code: **ar8l**). Then run ``cat ShapeNetViPC-Dataset.tar.gz* | tar zx``, you will get ``ShapeNetViPC-Dataset`` contains three folders: ``ShapeNetViPC-Partial``, ``ShapeNetViPC-GT`` and ``ShapeNetViPC-View``. 
 
 For each object, the dataset includes partial point clouds (``ShapeNetViPC-Patial``), complete point clouds (``ShapeNetViPC-GT``) and corresponding images (``ShapeNetViPC-View``) from 24 different views. You can find the detail of 24 cameras view in ``/ShapeNetViPC-View/category/object_name/rendering/rendering_metadata.txt``.
@@ -12,12 +12,13 @@ For each object, the dataset includes partial point clouds (``ShapeNetViPC-Patia
 Use the code in  ``dataloader.py`` to load the dataset. 
 
 ## Training
-The file config.py contains the configuration for all the training parameters.
+The file config_vipc.py and config_3depn.py contain the configuration for all the training parameters.
 
 To train the models in the paper, run this command:
 
 ```train
-python train.py 
+python train_vipc.py 
+python train_3depn.py 
 ```
 
 ## Evaluation
@@ -25,13 +26,15 @@ python train.py
 To evaluate the models (select the specific category in config.py):
 
 ```eval
-python eval.py 
+python eval_vipc.py 
 ```
 
 ## Acknowledgements
 Some of the code of this repo is borrowed from:
 
 - [XMFNet](https://github.com/diegovalsesia/XMFnet)
+
+- [Cross-PCC](https://github.com/ltwu6/cross-pcc)
 
 - [ChamferDistance](https://github.com/ThibaultGROUEIX/ChamferDistancePytorch)
 
@@ -48,6 +51,6 @@ Some of the code of this repo is borrowed from:
 }
 ```
 
-## 📌 License
+## License
 
 MIT License
