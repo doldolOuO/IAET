@@ -57,7 +57,7 @@ Some of the code of this repo is borrowed from:
 
 ## 📄 Cite this work
 
-```
+```bibtex
 @inproceedings{fang2025iaet,
   title={Multi-Modal Point Cloud Completion with Interleaved Attention Enhanced Transformer},
   author={Chenghao Fang and Jianqing Liang and Jiye Liang and Hangkun Wang and Kaixuan Yao and Feilong Cao},
