@@ -46,7 +46,7 @@ def rotation_x(pts, theta):
 
 
 class ViPCDataLoader(Dataset):
-    def __init__(self, filepath, data_path, status, pc_input_num=2048, view_align=False, category='all'):
+    def __init__(self, filepath, data_path, status, pc_input_num=3500, view_align=False, category='all'):
         super(ViPCDataLoader, self).__init__()
         self.pc_input_num = pc_input_num
         self.status = status
@@ -241,7 +241,7 @@ if __name__ == "__main__":
     from torch.utils.data import DataLoader
     category = "plane"
     ViPCDataset = ViPCDataLoader('./dataset/test_list.txt',
-                                 data_path='/home/doldolouo/completion/data/ShapeNetViPC_2048',
+                                 data_path='/home/doldolouo/completion/data/ShapeNetViPC',
                                  status='test',
                                  category=category)
     train_loader = DataLoader(ViPCDataset,
