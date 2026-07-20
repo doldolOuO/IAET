@@ -9,7 +9,7 @@ class params:
         self.nThreads = 8
         self.lr = 0.001
         self.milestones = [20, 40, 60, 80, 100, 120, 140, 160, 180]
-        self.data_root = "/data/FCH/data/ShapeNetViPC_2048"
+        self.data_root = "/data/FCH/data/ShapeNetViPC"
         self.n_epochs = 200
         self.eval_epoch = 1
         self.resume = False
