@@ -103,9 +103,9 @@ def main():
             for batch_idx, data in enumerate(t):
                 image = data[0].to(device)
                 partial = data[2].to(device)
-                # partial = fps_subsample(partial, 2048)
+                partial = fps_subsample(partial, 2048)
                 gt = data[1].to(device)
-                # gt = fps_subsample(gt, 2048)
+                gt = fps_subsample(gt, 2048)
                 out = model(partial, image)
                 stage2 = fps_subsample(gt.contiguous(), out[2].size(1))
                 stage1 = fps_subsample(stage2.contiguous(), out[1].size(1))
