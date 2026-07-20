@@ -19,7 +19,7 @@ model.to(device)
 model.load_state_dict(torch.load(ckpt_dir)['model_state_dict'])
 
 ViPCDataset_test = ViPCDataLoader('./dataset/vipc_test_list.txt',
-                                  "/data/FCH/data/ShapeNetViPC_2048",
+                                  "/data/FCH/data/ShapeNetViPC",
                                   status="test",
                                   category=category)
 test_loader = DataLoader(ViPCDataset_test,
@@ -40,9 +40,9 @@ with torch.no_grad():
         i += 1
         image = data[0].to(device)
         partial = data[2].to(device)
-        # partial = fps_subsample(partial, 2048)
+        partial = fps_subsample(partial, 2048)
         gt = data[1].to(device)
-        # gt = fps_subsample(gt, 2048)
+        gt = fps_subsample(gt, 2048)
         out = model(partial, image)
 
         # Compute the eval loss
